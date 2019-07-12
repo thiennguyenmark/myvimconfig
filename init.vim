@@ -4,6 +4,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'rking/ag.vim'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/fzf'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
