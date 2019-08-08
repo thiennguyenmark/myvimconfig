@@ -8,6 +8,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'airblade/vim-gitgutter'
 Plug 'zivyangll/git-blame.vim'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
