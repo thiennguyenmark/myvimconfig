@@ -5,6 +5,9 @@ Plug 'rking/ag.vim'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/fzf'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'airblade/vim-gitgutter'
+Plug 'zivyangll/git-blame.vim'
 
 call plug#end()
 
@@ -14,5 +17,4 @@ set number
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 map nt :NERDTreeToggle<CR>
-map thien :FZF<CR>
-
+map thi :FZF<CR>
