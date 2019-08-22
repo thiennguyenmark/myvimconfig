@@ -15,6 +15,9 @@ call plug#end()
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/vimrc'
 inoremap jj <Esc>
 set number
+nnoremap 0 $
+nnoremap 9 0
+inoremap <S-E> <End>
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 map nt :NERDTreeToggle<CR>
